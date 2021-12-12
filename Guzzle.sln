@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guzzle", "Guzzle\Guzzle.csproj", "{3FC679D0-E4A6-4E07-8761-1DCA313D4D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guzzle.Unit.Tests", "Guzzle.Unit.Tests\Guzzle.Unit.Tests.csproj", "{5CC7E6EF-85BD-4DBE-B8F3-5F8F803E585D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC679D0-E4A6-4E07-8761-1DCA313D4D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC679D0-E4A6-4E07-8761-1DCA313D4D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC679D0-E4A6-4E07-8761-1DCA313D4D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC679D0-E4A6-4E07-8761-1DCA313D4D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC7E6EF-85BD-4DBE-B8F3-5F8F803E585D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC7E6EF-85BD-4DBE-B8F3-5F8F803E585D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC7E6EF-85BD-4DBE-B8F3-5F8F803E585D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC7E6EF-85BD-4DBE-B8F3-5F8F803E585D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
