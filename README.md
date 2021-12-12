@@ -13,6 +13,14 @@ using Cyberliberty.Guzzle;
 /* initialize new instance */
 Guzzle guzzle = new Guzzle( "http://www.example.com/" );
 
+/* initialize new instance with extra options */
+Guzzle guzzle = new Guzzle() {
+    Url = "http://www.example.com/",
+    AllowAutoRedirect = true,
+    UseProxy = true,
+    Proxy = "https://proxy.example.com:8873",
+};
+
 ```
 
 ### Add Headers / Files / Json
