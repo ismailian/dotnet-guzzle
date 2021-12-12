@@ -41,6 +41,9 @@ guzzle.AddParam("password", "********");
 
 /* upload files */
 guzzle.AddFile("some_file", @"C:\Users\John\Desktop\profile.png");
+
+/* Raw body */
+guzzle.RawBody("username=admin&password=********&login=submit");
 ```
 
 ### Synchronous call
