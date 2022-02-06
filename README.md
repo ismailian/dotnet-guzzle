@@ -2,7 +2,7 @@
 This is a wrapper library for performing http requests in .NET
 
 
-### Implimentation
+### Implementation
 ```C#
 using Cyberliberty.Guzzle;
 ```
